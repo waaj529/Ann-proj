@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['glasses', 'no-glasses']
+
+roboflow:
+  workspace: university-of-engineering-and-technology-lahore-2hqk6
+  project: glasses-detection-7kkhs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-of-engineering-and-technology-lahore-2hqk6/glasses-detection-7kkhs/dataset/1
